@@ -603,10 +603,11 @@ section {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
+  background-image: linear-gradient(to right, #b7e0f5, #2c6396);
 }
 
 #header.header-scrolled {
-  background: rgba(39, 70, 133, 0.8);
+  background-image: linear-gradient(to right, #b7e0f5, #2c6396);
   height: 60px;
 }
 
@@ -1030,4 +1031,17 @@ section {
 
 .social a i {
   line-height: 0;
+}
+
+
+/* Design added By TPN  */
+.partner-logo-list{
+  list-style-type: none;
+}
+.partner-logo-list li{
+  float: left;
+  margin: 15px 12px;
+}
+.partener_logo{
+  height: 50px;
 }
